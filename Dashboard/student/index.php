@@ -354,6 +354,6 @@ if (isset($_SESSION['email']) and isset($_SESSION['idEt'])) {
 <?php
   }
 } else {
-  header("location:../../identifier.php");
+  header("location:../../index.php");
 }
 ?>

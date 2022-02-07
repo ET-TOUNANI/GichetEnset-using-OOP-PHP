@@ -362,6 +362,6 @@ if (isset($_SESSION['admin'])) {
 
 <?php
 } else {
-  header("location:../../identifier.php");
+  header("location:../../index.php");
 }
 ?>
