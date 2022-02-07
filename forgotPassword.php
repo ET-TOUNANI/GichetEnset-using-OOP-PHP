@@ -28,13 +28,13 @@
 				  }
 				  else{
 					  /******* regerder votre gmail*/
-				  	header("Location:identifier.php?sent=2");  
+				  	header("Location:index.php?sent=2");  
 				  }
 				  
 		}else{
 
 			//deja activer 
-			header("Location:identifier.php?echec=1");  
+			header("Location:index.php?echec=1");  
 		}
 	}
 ?>

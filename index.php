@@ -37,7 +37,7 @@
 				header("Location:Dashboard/admin/index.php");  
 			}else{
 				//mot de passe incorrect 
-				header("Location:identifier.php?echec=1"); 
+				header("Location:index.php?echec=1"); 
 			}
 		}
 	}

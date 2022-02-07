@@ -33,15 +33,15 @@ if (isset($_POST['activer'])) {
 				$tr = true;
 				$NewPass = "UPDATE etudiant SET PassEtud ='" . $pass . "' ,statutCmp='" . $tr . "' WHERE IDETUD ='" . $data[0] . "' ";
 				$conex->query($NewPass);
-				header("Location:identifier.php?sent=2");
+				header("Location:index.php?sent=2");
 			}
 		} else {
 			//deja activer 
-			header("Location:identifier.php?deja=1");
+			header("Location:index.php?deja=1");
 		}
 	} else {
 		//consulter votre administration
-		header("Location:identifier.php?notFound=1");
+		header("Location:index.php?notFound=1");
 	}
 }
 ?>
